@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Mulish', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type:none;  /*removes bullets*/
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.logo img{
+    width: 69px;
+    height: 40px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container{
+    min-height: 598px;
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('images/eminem-review.jpg');
+
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 25px;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 15px;
+}
+
+#inProgressBar{
+    width: 900px;
+    margin-bottom: -25px;
+    cursor: pointer;
+}
+
+.songItemContainer{
+margin-top: 30px;
+}
+
+.songItem{
+    height: 20px;
+    background-color: grey;
+    opacity: 70%;
+    display: flex;
+    width: 700px;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    color: white;
+    
+}
+
+.songItem img{
+    width: 30px;
+    height: 35px;
+    border-radius: 7px;
+    margin: 0 23px;
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 350px;
+    margin-top: 12px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}

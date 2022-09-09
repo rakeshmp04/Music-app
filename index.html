@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify music app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="images/logo.png" alt=""><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h2>Best of Eminem</h2>
+            <div class="songItemContainer">
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="0" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="1" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="2" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="3" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="4" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="5" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="6" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+            <div class="songItem">
+                <img><span class="songName">Rap God.</span>
+                <span class="songListPlay"><span class="timestamp">6:02</span>  <i id="7" class="fa-solid songItemsPlay fa-play"></i> 
+            </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="inProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+           
+     
+
+            <!--fontawesome icons-->
+        </div>
+        <div class="songInfo">
+            <img src="images/music.gif" width="30px" height="50px" id="gif"><span id="masterSongName">Eminem-Rap God</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/767199b989.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
